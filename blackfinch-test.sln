@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blackfinch-test", "src\blackfinch-test.csproj", "{ED71BB7B-E766-4303-B58B-F512031912EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tests", "tests\tests.csproj", "{BC115548-9F65-4211-9930-3C4571091AEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{ED71BB7B-E766-4303-B58B-F512031912EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED71BB7B-E766-4303-B58B-F512031912EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED71BB7B-E766-4303-B58B-F512031912EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC115548-9F65-4211-9930-3C4571091AEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC115548-9F65-4211-9930-3C4571091AEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC115548-9F65-4211-9930-3C4571091AEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC115548-9F65-4211-9930-3C4571091AEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
