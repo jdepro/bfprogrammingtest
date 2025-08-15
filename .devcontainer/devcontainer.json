@@ -1,0 +1,27 @@
+// For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.205.2/containers/dotnet
+{
+  "name": "blackfinch-test",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": {
+        "VARIANT": "8.0-bookworm"
+    }
+  },
+  "runArgs": [
+    // This contains, or overrides any expected default EnvVars
+    "--env-file", "${localWorkspaceFolder}/.devcontainer/.env"
+  ],
+  "customizations": {
+    "settings": {
+      "telemetryLevel": "off"
+    },
+    "vscode": {
+      "extensions": [
+        "ms-dotnettools.csharp"
+      ]
+    }
+  },
+  // Run as an unprivileged user
+  "remoteUser": "vscode"
+}
